@@ -1,9 +1,7 @@
 # Playwright Assignments 2–12 (WORK IN PROGRESS — partial delivery)
 
 This zip is a **snapshot mid-build**. Assignments 2–8 are complete and
-runnable. Assignments 9–12 are partially done (see status table). The next
-delivery will complete everything and replace this README with the full
-version.
+runnable. Assignments 9–12 are also done (see status table). 
 
 ## Setup
 
@@ -28,9 +26,6 @@ npm run test:a8    # Assignment 8
 npm run report     # open the HTML report after any run
 ```
 
-(`test:a9` through `test:a12` are wired into `package.json` / config already
-but their spec files aren't finished yet — running them now will find 0 or
-partial tests.)
 
 ## Status & site mapping
 
@@ -62,6 +57,5 @@ partial tests.)
 - One shared `playwright.config.js` with a project-per-assignment/baseURL
   setup, HTML reporting, and a `webServer` entry pre-wired for Assignment 10.
 
-I'll follow up with the completed Assignments 9–12, a working API-mocking
-fixture app, and the full top-level README.
+
 # PlaywrightAssignmentDhruvi
